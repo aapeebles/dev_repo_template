@@ -1,10 +1,13 @@
 [workspace]
 authors = ["aapeebles <aapeebles@gmail.com>"]
 channels = ["conda-forge"]
-name = "pixi_project"
+name = "pycon_practice_2025"
 platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
 
 [dependencies]
+python = "3.12.*"
+pandas = ">=2.2.3,<3"
+pre-commit = ">=4.2.0,<5"

@@ -1,0 +1,10 @@
+[workspace]
+authors = ["aapeebles <aapeebles@gmail.com>"]
+channels = ["conda-forge"]
+name = "pixi_project"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
